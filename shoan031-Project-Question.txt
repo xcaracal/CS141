@@ -1,0 +1,4 @@
+Looking at the decision array String B[][] int he print function, when you get "↑", how would you recursively call the print function to move up?
+-return printLCS(sOne,sTwo, i-1, j,d);
+-return printLCS(sOne,sTwo,i,j-1,d);
+-return printLCS(sOne,sTwo,i-1,j-1,d) + String.valueOf(sOne.charAt(i-1));
